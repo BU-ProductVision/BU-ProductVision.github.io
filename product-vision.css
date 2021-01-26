@@ -88,7 +88,7 @@ color: #2867B2;
     }
 
     #layersMobile {
-        padding-top: 25%;
+        padding-top: 30%;
     }
 
     .image-block {
@@ -103,8 +103,8 @@ color: #2867B2;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 4%;
-        margin-bottom: 4%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 }
 
