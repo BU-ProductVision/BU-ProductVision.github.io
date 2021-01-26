@@ -3,53 +3,45 @@ body, html {
     height: 100%;
 }
 
-.navbar {
+.navbar, #navbarText, .copyright {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-    position: relative !important;
-    background-color: #ffffff;
-    overflow: hidden;
+#desktopHeader h1 {
+    font-family: 'Roboto';
+    font-weight: 500;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 40px 60px;
-    text-decoration: none;
-    font-size: 22px;
+#desktopHeader h5 {
+    font-weight: 200;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ddd;
+
+
+#mail, #linkedin {
+    margin: 8px;
+}
+
+#mail {
     color: black;
+    }
+    
+#linkedin {
+color: #2867B2;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+#desktopHeader {
+    height: 100%;
+    color: black;
+    /* background: black; */
+    /* background: #494949; */
+    /* background: -webkit-radial-gradient(center, #e9e9e9, #000000);
+    background: -moz-radial-gradient(center, #292929, #000000);
+    background: radial-gradient(ellipse at center, #292929, #000000); */
+    text-align: center;
+    padding-top: 12%;
+    background-color: gray;
 }
-
-/* Centered section inside the top navigation */
-.topnav-centered a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-    float: right !important;
-}
-
 
 /* Source: https://github.com/creativetimofficial/material-kit/issues/107 */
 .logo-image {
@@ -57,4 +49,41 @@ body, html {
     height: 90px;
     overflow: hidden;
     margin-top: 0px;
+}
+
+#layers {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    /* background-color: red; */
+}
+
+#layer1 {
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.one-third-image {
+    width: 33%;
+}
+
+.two-thirds-image-left {
+    width: 63%;
+    padding-right: 5%;
+    background-color: red;
+}
+
+.two-thirds-image-right {
+    width: 63%;
+    padding-left: 5%;
+    background-color: red;
+}
+
+/* Copyright */
+.copyright {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: 0.75em;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
